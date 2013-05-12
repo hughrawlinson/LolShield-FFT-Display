@@ -28,8 +28,8 @@ void draw(){
   fft.forward(in.mix);
   for(int i = 0; i < fft.specSize(); i+= fft.specSize()/18){
     line(i/14*fft.specSize()/14, height, i/14*fft.specSize()/14, height - fft.getBand(i) * 4);
-    // String send = (int)(map(fft.getBand(i),0,35,0,9)) + " " + i/14 + "\n";
-    String send = 0 + " " + i/14 + "\n";
+    String send = (int)(map(fft.getBand(i),0,35,0,9)) + " " + i/14 + "\n";
+    //String send = 0 + " " + i/14 + "\n";
     if(i/14<14){
       myPort.write(send);
       print(send);
