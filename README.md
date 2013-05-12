@@ -4,4 +4,4 @@ I'm writing code to display an fft analysis of audio on an arduino LolShield. It
 
 ## Using
 
-I'm using Processing, Minim, Arduino Code, and the LedSign library, as well as [Jimmie Rogers' LolShield|http://jimmieprodgers.com/kits/lolshield/] which I soldered together from a kit :D
+I'm using Processing, Minim, Arduino Code, and the LedSign library, as well as [Jimmie Rogers' LolShield](http://jimmieprodgers.com/kits/lolshield/) which I soldered together from a kit :D
